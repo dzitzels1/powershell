@@ -1,7 +1,7 @@
 ﻿###### Definitions #######
 
 # Define the virtual machine names to be created
-$server = ('server-3')
+$server = ('ads-1')
 
 # Define virtual machine path
 $VM_Location = "C:\temp\vm"
