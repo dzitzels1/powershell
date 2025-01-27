@@ -1,4 +1,4 @@
-I had to create a script to compare our AD Computer objects vs what was in VMware as Servers.  This script was designed for that purpose.
+I had an audit task to find all of our production servers.  I decided to create a script to compare our AD Computer objects vs what was in VMware as servers.  Why didn't I just grab the list out of VMware?  Because I wanted to see how much "junk" we had in AD as part of the process.  This script was designed to fulfill purpose.
 
 We have the luxury of having just servers in our domain so that eased the development of this script immensely.  If you have a mix of client workstations and servers, you will have to structure the following query differently:
 
