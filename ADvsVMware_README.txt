@@ -6,6 +6,8 @@ $computers = Get-ADComputer -Filter * -Properties * | Select-Object Name,DNSHost
 
 You may have to either add a -SearchBase variable or filter by operating system.  If you have both Linux and Windows AD Computer objects, you may have to write two queries and ammend the script to process both.
 
+Also, don't forget that you need to install VMware PowerCLI.  Here is a link: https://developer.broadcom.com/powercli/installation-guide
+
 Hopefully this script gives you a good starting point.
 
 Good luck and good scripting!
