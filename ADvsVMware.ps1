@@ -1,13 +1,10 @@
 <#
 
 .DESCRIPTION
-    Verifies AD computer objects as Active VMware servers
+    Verifies AD computer objects as Active VMware servers.  See README for more information about this script.
 
 .EXAMPLE
     verify_Serverss()
-
-.NOTE
-    See README for more information about this script. 
 
 #>
 
