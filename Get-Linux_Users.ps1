@@ -1,3 +1,4 @@
+#Created a comment here
 $file_results = Get-Content -Path '/etc/passwd'
 $sys_users = @()
 $std_users = @()
