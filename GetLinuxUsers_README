@@ -5,7 +5,7 @@ Get-Linux_Users.ps1 is designed to process the /etc/passwd file into a readable 
 
 This is a sample output:
 
-PS /data/github/scripts/scripts> /data/github/scripts/scripts/Get-Users.ps1
+PS /data/github/scripts/scripts> /data/github/scripts/scripts/Get-Linux_Users.ps1
 
 System Users:
 
