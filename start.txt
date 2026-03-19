@@ -1,2 +1,0 @@
-# Test Git Quick Start Demo
-# Daniel Zitzelsberger
