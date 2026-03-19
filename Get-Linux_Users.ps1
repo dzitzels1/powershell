@@ -1,3 +1,6 @@
+#This script was created more as an excerise in running PowerShell on Linux to show the cross functional capabilities.
+#Realistically, no Linux admin would run this but I just wanted to show something like this could be done.
+
 #Created a comment here
 $file_results = Get-Content -Path '/etc/passwd'
 $sys_users = @()
