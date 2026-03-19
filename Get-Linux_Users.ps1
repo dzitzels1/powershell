@@ -10,7 +10,6 @@ for ($i=0; $i -lt $file_results.Length; $i++)
         $tmp_usr = $file_results[$i].Split(":")
         $user = New-Object PSObject
         $user |Add-Member Username $tmp_usr[0]
-        #$user |Add-Member Password $tmp_usr[1]
         $user |Add-Member User_ID $tmp_usr[2]
         $user |Add-Member Group_ID $tmp_usr[3]
         $user |Add-Member Comment $tmp_usr[4]
